@@ -13,7 +13,7 @@
   padding: 1em;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
   transition: transform 0.3s;
 }
@@ -44,12 +44,12 @@ a:hover {
   color: #ffa726;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 768px) {
   .cat-container {
     flex-direction: column;
     align-items: center;
   }
-  .cat-breed {
+  .cat-breed{
     flex: 1 1 100%;
     max-width: 100%;
   }
