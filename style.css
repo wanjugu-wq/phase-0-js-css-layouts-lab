@@ -13,7 +13,10 @@
     border-radius:8px;
     box-shadow:0 4px 8px rgba(0,0,0,0.1);
     text-align:center;
-    /* transition: transform 0.3s ease-in-out; */
+    transition:transform 0.3s ease;
+}
+.cat-card:hover {
+  transform: translateY(-8px) scale(1.03);
 }
 .cat-breed img{
     max-width:100%;
